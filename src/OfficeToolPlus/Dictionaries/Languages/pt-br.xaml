@@ -80,8 +80,8 @@
     <sys:String x:Key="Home_Install_Office.O365HPRDescription">Inclui o Outlook, Word, Excel, PowerPoint, e mais.</sys:String>
     <sys:String x:Key="Home_Install_Office.PP2019RDescription">Inclui o Outlook, Word, Excel, PowerPoint, e mais.</sys:String>
     <sys:String x:Key="Home_Install_Office.HS2019Description">Inclui o Word, Excel, PowerPoint.</sys:String>
-    <sys:String x:Key="Home_Fetching_Content">Obtendo o conteúdo, aguarde...</sys:String>
-    <sys:String x:Key="Home_Error_While_Fetching_Content">Não foi possível obter o conteúdo, verifique sua conexão com a Internet e tente de novo.</sys:String>
+    <sys:String x:Key="Home_Loading_Content">Loading content...</sys:String>
+    <sys:String x:Key="Home_Error_While_Loading_Content">Unable to load content. Please check your Internet connection and try again.</sys:String>
     <sys:String x:Key="Home_Retry">_Repetir</sys:String>
     <sys:String x:Key="Home_Launcher.Name">Lista de aplicativos</sys:String>
     <sys:String x:Key="Home_Launcher_OpenInBrowser">A_brir no navegador</sys:String>
@@ -477,7 +477,7 @@
     <sys:String x:Key="Toolbox_Backup">Backup</sys:String>
     <sys:String x:Key="Toolbox_Restore">Restaurar</sys:String>
     <sys:String x:Key="Toolbox_Reset_OfficeSettings">Redefinir configurações do Office para os padrões originais</sys:String>
-    <sys:String x:Key="Toolbox_Reset_OfficeSettings.Description">Redefinir o Office para as configurações padrão como você desejar. Antes de começar, feche todos os aplicativos do Office.</sys:String>
+    <sys:String x:Key="Toolbox_Reset_OfficeSettings.Description">Reset Office to default settings. Please close all Office applications before proceeding.</sys:String>
     <sys:String x:Key="Toolbox_Reset_OfficeSettings_Button">Redefinir</sys:String>
     <sys:String x:Key="Toolbox_Reset_OfficeSettings_UserSettings">Excluir configurações do usuário atual</sys:String>
     <sys:String x:Key="Toolbox_Reset_OfficeSettings_UserSettings.Description">Inclui configurações dos aplicativos do Office, arquivos abertos recentemente e locais para salvar recentes.</sys:String>
@@ -825,7 +825,6 @@
     <sys:String x:Key="Task_Downloading_Updates">Baixando atualizações, {0} concluído ({1} de {2}).</sys:String>
     <sys:String x:Key="Task_Verifying_Installation_Files">Verificando arquivos. Por favor, aguarde...</sys:String>
     <sys:String x:Key="Task_Loading_Preferences">Carregando preferências do aplicativo. Por favor, aguarde...</sys:String>
-    <sys:String x:Key="Task_Downloading_Web_Config">Obtendo arquivo de configurações a partir da Internet. Por favor, aguarde...</sys:String>
     <sys:String x:Key="Task_Preparing_Download">Preparando para baixar o Office</sys:String>
     <!-- Example: Creating Office ISO file, file size: 3.1GB, 45% completed. -->
     <sys:String x:Key="Task_Creating_ISO">Criando arquivo ISO do Office, tamanho do arquivo: {0}, {1} concluído.</sys:String>
@@ -845,7 +844,6 @@
     <sys:String x:Key="Task_Computing_Hash">Calculando hash, {0} arquivo(s) restante(s).</sys:String>
     <sys:String x:Key="Task_Exporting_Hash">Exportando resultados. Por favor, aguarde...</sys:String>
     <!-- Example: Installing iSlide, please wait. -->
-    <sys:String x:Key="Task_Installing_App">Instalando o {0}. Por favor, aguarde...</sys:String>
 
     <!-- Question Message -->
     <sys:String x:Key="Ques_Update.Title">Atualização do Office Tool Plus</sys:String>
@@ -883,6 +881,7 @@
     <sys:String x:Key="Info_Update_In_Progress">Atualização em andamento. Por favor, aguarde...</sys:String>
     <sys:String x:Key="Info_Updates_Incomplete">Falha ao aplicar algumas atualizações, tente de novo mais tarde.</sys:String>
     <sys:String x:Key="Info_SystemDrive_NoSpace">O espaço em disco do seu sistema está acabando, o que pode causar falhas em algumas operações.</sys:String>
+    <sys:String x:Key="Info_SystemDrive_Permissions">Your system drive permissions are incorrect. Please contact technical support for assistance.</sys:String>
     <sys:String x:Key="Info_No_Language_Added_For_Download">Detectamos que você não adicionou um idioma. Na maioria dos casos, recomendamos adicionar idiomas para evitar problemas.</sys:String>
     <sys:String x:Key="Info_Select_Where_To_Save_Office_Installation">Selecione a pasta para salvar os arquivos de instalação do Office.&#x000A;Para usar o local padrão, desative "Perguntar onde salvar arquivos" na página de configurações.</sys:String>
     <sys:String x:Key="Info_All_Files_Exist">Não há necessidade de baixar o arquivo.</sys:String>
